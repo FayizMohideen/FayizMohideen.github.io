@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.header-element{
+  background: #023047;
+  width:100%;
+  height:61px;
+  padding-top: 0px;
+}
+
+h {
+  color:white;
+  padding: 10px, 10px, 10px, 10px;
+}
+
+.icon{
+  float:left;
+  height: 54px;
+  width: 54px;
+  left: 14px;
+  padding-top:-20px;
+  margin-bottom:20px;
+  padding-left:20px;
+}
+
+.title {
+  float:left;
+  height: 56px;
+  width: 179px;
+  left: 84px;
+  top: 2px;
+  padding-top:5px;
+  padding-left:20px;
+  color:#FFB703;
+  font-size:45px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.header-link{
+  float:right;
+  padding-top:10px;
+  margin-right:75px;
+  margin-top:5px;
+  font-size:25px;
+  font-family: Roboto, Courier, monospace;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.text-box{
+  padding: 10px 20px 10px 10px;
+  background:#219EBC;
+  border-radius: 100px;
+  opacity: 100%;
+}
+
+.page{
+  width:100%;
+  padding-bottom:1000px;
+}
+
+.offset-color{
+  width:100%;
+  padding-bottom:50%;
+  
+}
+
+.bogus{
+  font-size:70px;
+}
+
+body {
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+}
+
+.eng7{
+  position: absolute;
+
+  width: 100%;
+  height: 80%;
+  left: 0px;
+  top: 65px;
+  background:url("../images/engbuild1.jpg") no-repeat bottom center fixed;
+  background-size: cover;
+  opacity:0.6;
+}
+
+.goose{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  left: 0px;
+  top: 65px;
+  background:url("../images/geese.jpg") no-repeat bottom center fixed;
+  background-size: cover;
+  opacity:0.6;
+}
+
+.contact{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  left: 0px;
+  top: 65px;
+  background:url("../images/contact.jpg") no-repeat bottom center fixed;
+  background-size: cover;
+  opacity:0.6;
+}
+
+.campus{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  left: 0px;
+  top: 65px;
+  background:url("../images/campus.jpg") no-repeat bottom center fixed;
+  background-size: cover;
+  opacity:0.6;
+}
+
+.offset-color{
+  position: absolute;
+  width:100%;
+  height:20%;
+  left:0%;
+  top:76%;
+  background-color:#023047;
+}
+
+.engbuilding2{
+  position: absolute;
+  width:100%;
+  height:70%;
+  left: 0%;
+  top: 190%;
+  background:url("../images/engbuilding2.png") no-repeat bottom center fixed;
+  background-size: cover;
+  opacity:0.6;
+}
+
+.footer-element{
+  position: absolute;
+  width:100%;
+  height:30%;
+  left: 0%;
+  top: 260%;
+  background-color:#023047;
+}
+
+#main-page-icon{
+  position: absolute;
+  width: 486;
+  height: 486px;
+  left: 60%;
+  top: 10%;
+  opacity:1;
+}
+
+#main-page-title{
+  position: absolute;
+  width: 400px;
+  height: 123px;
+  left: 50px;
+  top: 100px;
+  z-index: -1;
+
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 106px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #023047;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background:#FB8500;
+  padding-left:100px;
+  margin-right:0%;
+  border-radius:100px;
+  opacity:100%;
+}
+
+#main-page-desc{
+  position: absolute;
+  width: 539px;
+  height: 159px;
+  left: 81px;
+  top: 300px;
+  z-index: -1;
+
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #023047;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  float:right;
+}
+
+.shift-to-right{
+  float:right;
+  text-align:right;
+  width:50%;
+  padding-right:15px;
+}
+
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+
+.icon2{
+  float:left;
+  height: 130px;
+  width: 110x;
+  left: 14px;
+  padding-left:10px;
+  padding-top:10px;
+
+}
+
+.slogan{
+  display:block;
+  font-family: 'Raleway', sans-serif;
+  font-size:35px;
+  font-style: normal;
+  font-weight: bold;
+  padding-top:10px;
+  padding-left:30px;
+  float:left;
+}
+
+
+.footer-element-short{
+  position: absolute;
+  width:100%;
+  height:30%;
+  left: 0%;
+  top: 80%;
+  background-color:#023047;
+}
+
+.footer-element-special{
+  position: absolute;
+  width:100%;
+  height:30%;
+  left: 0%;
+  top: 180%;
+  background-color:#023047;
+}
+
+.blue-bubble{
+  font-size:60px;
+  background:#219EBC;
+  padding-left:30px;
+  margin-right:60%;
+  border-radius:50px;
+  color:white;
+  font-family:'Raleway';
+  opacity:100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: whiteFFB703
+}
+
+a:hover {
+  text-decoration-line: underline;
+  color: white;
+}
+
+.orange-bubble{
+  font-size:70px;
+  background:#FB8500;
+  padding-left:100px;
+  margin-right:30%;
+  border-radius:100px;
+  color:white;
+  font-family:'Raleway';
+  opacity:100%;
+}
+
+.bot-portal{
+  font-size:70px;
+  background-color: #F8F8F8; 
+  border-radius:100px;
+  margin-right:0%;
+  text-align:center;
+  opacity:100%;
+}
+
+.portal{
+  font-size:50px;
+  background-color: #FB8500; 
+  border-radius:100px;
+  margin-left:45%;
+  top: 317px;
+  opacity:100%;
+  color: #000000;
+}
+
+.orange-bubble2{
+  font-size:30px;
+  background:#FB8500;
+  padding-left:100px;
+  margin-right:50%;
+  border-radius:100px;
+  color:white;
+  font-family:'Raleway';
+  opacity:100%;
+}
+
+.faq-black{
+  background-color:#219EBC;
+  font-size:30px;
+  padding-left:100px;
+  margin-right:50%;
+  border-radius:100px;
+  color:black;
+  font-family:'Raleway';
+  opacity:100%;
+}
+
+.new-black{
+  background-color:#219EBC;
+  font-size:60px;
+  padding-left:100px;
+  margin-right:30%;
+  margin-left:30%;
+  border-radius:100px;
+  color:black;
+  font-family:'Raleway';
+  opacity:100%;
+}
+
+.new-black2{
+  background-color:#219EBC;
+  font-size:60px;
+  padding-left:100px;
+  margin-right:30%;
+  margin-left:30%;
+  margin-top:10%;
+  border-radius:100px;
+  color:black;
+  font-family:'Raleway';
+  opacity:100%;
+}
+
+
+.more-about{
+  background-color: #F8F8F8;
+  font-size: 38px;
+  border-radius:50px;
+  color:#000000;
+  padding-left:20px;
+  font-family: 'Sunflower';
+}
+
+.contact2{
+  font-size:40px;
+  margin-left:45%;
+}
+
+
+#future {
+  font-size: 100px;
+}
+
+input{
+  height:40px;
+  font-size:20px;
+}
